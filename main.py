@@ -1,18 +1,14 @@
 import sys
 import cv2
-from PySide6.QtWidgets import QApplication, QMainWindow,QFrame
-from PySide6.QtGui import QAction, QImage, QKeySequence, QPixmap
-from PySide6.QtCore import Qt, QThread, Signal, Slot,QTimer
+from PySide6.QtWidgets import QApplication, QMainWindow
+from PySide6.QtGui import  QImage, QPixmap
+from PySide6.QtCore import Qt, QThread, Signal, Slot
 from ui_mainWindow import Ui_MainWindow
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import time
-import pyrealsense2 as rs
-#from realsense_depth import *
-import mediapipe as mp
 from detector_object import Pose_Detector
 import pandas as pd
-import numpy as np
 import datetime
 
 

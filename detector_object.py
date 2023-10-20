@@ -1,16 +1,13 @@
-# Importamos las librerias a usar
+
 from sre_constants import SUCCESS
 import pyrealsense2 as rs
 import numpy as np
 import cv2
 
 import mediapipe as mp
-import matplotlib.pyplot as plt 
-import pandas as pd
-import sys
 import datetime
 
-import threading
+
 
 
 
